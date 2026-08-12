@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Porto | Refrigeração RJ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!-- Favicon do navegador -->
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/png" sizes="46x46" href="favicon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+ 
+  <!-- Favicon para Google e indexação -->
+
+<link rel="icon" href="https://portorefrigeracaorj.com.br/favicon.ico">
+<link rel="icon" type="image/png" href="https://portorefrigeracaorj.com.br/favicon.png">
+</head>
+<body>
+
+
+
+<!-- NAVBAR -->
+
+<nav id="navbar">
+  <a href="#home" class="nav-logo">
+
+
+<!-- LOGO: coloque o arquivo da logo na mesma pasta do HTML com o nome "logo.png" -->
+    <img src="images/logo.jpg" alt="Refritronica" class="nav-logo-img"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+   
+  </a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#sobre">Empresa</a></li>
+    <li><a href="#contato">Contato</a></li>
+    <li><a href="https://wa.me/5521965722032" class="nav-cta" target="_blank"> Orçamento</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#home" class="nav-mobile-link">Home</a></li>
+    <li><a href="#servicos" class="nav-mobile-link">Serviços</a></li>
+    <li><a href="#sobre" class="nav-mobile-link">Empresa</a></li>
+    <li><a href="#contato" class="nav-mobile-link">Contato</a></li>
+    <li><a href="https://wa.me/5521965722032" class="nav-mobile-link" target="_blank"> Orçamento</a></li>
+  </ul>
+</div>
+
+<!-- HERO CAROUSEL -->
+
+<section id="home" class="hero">
+
+  <!-- SLIDE 1: Refrigeração -->
+
+  <div class="slide active">
+    <div class="slide-bg"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-stripe"></div>
+    <div class="slide-content">
+      <div class="slide-tag">Refrigeração</div>
+      <h1 class="slide-title">Somos especialistas<br>em <em>Refrigeração</em></h1>
+      <p class="slide-desc">Instalação e manutenção de geladeiras, expositoras, balcões refrigerados, câmara fria, entre outros. Trabalhamos com as principais marcas do mercado.</p>
+      <div class="slide-btns">
+        <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
+        <a href="#servicos" class="btn-outline">Ver Serviços</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 2: Climatização -->
+
+  <div class="slide">
+    <div class="slide-bg"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-stripe"></div>
+    <div class="slide-content">
+      <div class="slide-tag">Climatização</div>
+      <h1 class="slide-title">Conforto<br>o ano <em>todo</em></h1>
+      <p class="slide-desc">Instalação e manutenção de ar condicionado Split e ar condicionado de janela. Trabalhamos com as principais marcas do mercado.</p>
+      <div class="slide-btns">
+        <a href="#contato" class="btn-primary">Agendar Instalação</a>
+        <a href="#servicos" class="btn-outline">Saiba Mais</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- SLIDE 3: Manutenção -->
+
+  <div class="slide">
+    <div class="slide-bg"></div>
+    <div class="slide-overlay"></div>
+    <div class="slide-stripe"></div>
+    <div class="slide-content">
+      <div class="slide-tag">Manutenção</div>
+      <h1 class="slide-title">Aparelhos que<br><em>funcionam</em></h1>
+      <p class="slide-desc">Manutenção e reparo de equipamentos de refrigeração e climatização para residências e empresas.</p>
+      <div class="slide-btns">
+        <a href="#contato" class="btn-primary">Fale Conosco</a>
+        <a href="#servicos" class="btn-outline">Ver Serviços</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAV DOTS + ARROWS -->
+
+  <div class="hero-nav">
+    <div class="hero-dots">
+      <button class="dot active" data-index="0"></button>
+      <button class="dot" data-index="1"></button>
+      <button class="dot" data-index="2"></button>
+    </div>
+    <div class="hero-arrows">
+      <button class="arrow-btn" id="prevBtn">&#8592;</button>
+      <button class="arrow-btn" id="nextBtn">&#8594;</button>
+    </div>
+  </div>
+
+</section>
+
+<!-- SERVICES -->
+
+<section id="servicos">
+  <div class="services-header">
+    <div>
+      <div class="section-label reveal">Nossos Serviços</div>
+
+
+<h2 class="section-title reveal">O que a <em>Porto Refrigeração</em><br>pode fazer por você:</h2>
+    </div>
+    <p class="section-desc reveal" style="max-width:340px;text-align:right;">Atendemos residências e empresas com qualidade, agilidade e garantia em todos os serviços.</p>
+  </div>
+
+  <div class="services-grid">
+<div class="service-card reveal">
+  
+  <img src="images/rfg.jpg" alt="refrigeração" class="service-card-img"> 
+  
+  <div class="service-icon">&#10052;</div>
+  <h3>Refrigeração</h3>
+  <p>Soluções completas de segurança para proteger seu patrimônio com tecnologia moderna e monitoramento eficiente.</p>
+  <div class="service-tags">
+    <span class="tag">Câmara fria</span>
+    <span class="tag">Geladeira</span>
+    <span class="tag">Expositora</span>
+    <span class="tag">Balcão refrigerado</span>
+  </div>
+</div>
+
+<div class="service-card reveal">
+
+  <img src="images/arsala.jpg" alt="Climatizacao" class="service-card-img">
+  
+  <div class="service-icon">&#10052;</div>
+  <h3>Climatização</h3>
+  <p>Atendemos desde ar condicionado residêncial até equipamentos comerciais de alta demanda.</p>
+  <div class="service-tags">
+    <span class="tag">Ar Split</span>
+    <span class="tag">Ar Janela</span>  
+    
+    
+  </div>
+</div>
+
+<div class="service-card reveal">
+
+  <img src="images/mntc.jpg" alt="Climatizacao" class="service-card-img">
+  
+  <div class="service-icon"> &#128736;</div>
+  <h3>Manutenção</h3>
+  <p>Atendemos desde ar condicionado residêncial até equipamentos comerciais de alta demanda.</p>
+  <div class="service-tags">
+    <span class="tag">Ar Split</span>
+    <span class="tag">Ar Janela</span>
+    <span class="tag">Câmara fria</span>
+    <span class="tag">Geladeira</span>
+    <span class="tag">Expositora</span>
+    <span class="tag">Balcão refrigerado</span>
+    
+    
+  </div>
+</div>
+
+
+</section>
+
+<section id="portfolio" class="portfolio-section">
+  <div class="section-label reveal">Serviços Realizados</div>
+  <h2 class="section-title reveal">Projetos entregues com excelência</h2>
+
+  <div class="portfolio-carousel reveal">
+    <div class="portfolio-track" id="portfolioTrack">
+      <div class="portfolio-slide">
+        <img src="images/p1.jpg" alt="Instalação de climatização residencial">
+        <div class="portfolio-caption">Troca compressor Freezer vertical</div>
+      </div>
+      <div class="portfolio-slide">
+        <img src="images/p2.jpg" alt="Varal sob medida instalado">
+        <div class="portfolio-caption">Instalação AGRATTO 30 mil Btu/s</div>
+      </div>
+      <div class="portfolio-slide">
+        <img src="images/p3.jpg" alt="Tela mosquiteira instalada">
+        <div class="portfolio-caption">Limpeza e instalação de split HW</div>
+      </div>
+      <div class="portfolio-slide">
+        <img src="images/p4.jpg" alt="Fachada da loja Bom Ar">
+        <div class="portfolio-caption">Manutenção em câmara fria</div>
+      </div>
+    </div>
+
+    <div class="portfolio-controls">
+      <button class="portfolio-btn" id="portfolioPrev" aria-label="Slide anterior">&#8592;</button>
+      <div class="portfolio-dots" id="portfolioDots">
+        <button class="portfolio-dot active" data-index="0"></button>
+        <button class="portfolio-dot" data-index="1"></button>
+        <button class="portfolio-dot" data-index="2"></button>
+        <button class="portfolio-dot" data-index="3"></button>
+      </div>
+      <button class="portfolio-btn" id="portfolioNext" aria-label="Próximo slide">&#8594;</button>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+
+<section id="sobre">
+  <div class="about-visual reveal">
+<div class="about-highlight blue">
+  <div class="ah-icon">&#128197;</div>
+  <div class="ah-num">10+</div>
+  <div class="ah-label">Anos de Experiencia</div>
+  <div class="ah-desc">Atuando no mercado desde 2015</div>
+  <div class="ah-bg-icon">&#128197;</div>
+</div>
+
+<div class="about-highlight blue">
+  <div class="ah-icon">&#128101;</div>
+  <div class="ah-num">500+</div>
+  <div class="ah-label">Clientes Atendidos</div>
+  <div class="ah-desc">Residências e empresas em toda a região</div>
+  <div class="ah-bg-icon">&#128101;</div>
+</div>
+
+<div class="about-highlight blue">
+  <div class="ah-icon">&#128275;</div>
+  <div class="ah-num">2</div>
+  <div class="ah-label">Áreas de Atuação</div>
+  <div class="ah-desc">Refrigeração e Climatização</div>
+  <div class="ah-bg-icon">&#128275;</div>
+</div>
+
+<div class="about-highlight blue">
+  <div class="ah-icon">&#11088;</div>
+  <div class="ah-num">100%</div>
+  <div class="ah-label">Satisfação</div>
+  <div class="ah-desc">Garantia em todos os serviços realizados</div>
+  <div class="ah-bg-icon">&#11088;</div>
+</div>
+
+<div class="about-highlight wide blue">
+  <div class="ah-icon" style="font-size:2.4rem;">&#9889;</div>
+  <div class="wide-divider"></div>
+  <div class="ah-text">
+    <div class="ah-num">Rápido</div>
+    <div class="ah-label">Atendimento e Orçamento</div>
+
+<div class="ah-desc">Respondemos no mesmo dia pelo WhatsApp ou celular</div>
+  </div>
+</div>
+
+  </div>
+  <div class="about-text reveal">
+    <div class="section-label">Nossa Empresa</div>
+    <h2 class="section-title">Experiência e <em>confiança</em><br>em cada serviço</h2>
+    <p class="section-desc">A Porto Refrigeração atua há mais de 10 anos no mercado de Refrigeração e climatização. Nossa equipe de técnicos certificados garante qualidade e segurança em todos os serviços prestados.</p>
+    <ul class="about-list">
+      <li>Técnicos certificados e experientes</li>
+      <li>Atendimento rápido e pontual</li>
+      <li>Garantia em todos os serviços</li>
+      <li>Atendemos residências e empresas</li>
+      <li>Orçamento gratuito e sem compromisso</li>
+    </ul>
+    <a href="#contato" class="btn-primary">Solicitar Orçamento</a>
+    <div class="about-stats">
+      <div class="stat-box">
+        <div class="num">500+</div>
+        <div class="lbl">Clientes Atendidos</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">10+</div>
+        <div class="lbl">Anos no Mercado</div>
+      </div>
+      <div class="stat-box">
+        <div class="num">100%</div>
+        <div class="lbl">Satisfação Garantida</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contato">
+  <div class="section-label reveal">Contato</div>
+  <h2 class="section-title reveal">Fale com a <em>Porto Refrigeração</em></h2>
+  <p class="section-desc reveal">Entre em contato conosco pelo celular ou WhatsApp. Respondemos rapidamente!</p>
+
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+  
+
+  <div class="contact-item">
+    <div class="ci-icon">&#128242;</div>
+    <div class="ci-text">
+      <div class="ctitle">Celular / WhatsApp</div>
+      <div class="cval">
+        <a href="https://wa.me/5521965722032" target="_blank">(21) 96572-2032 </a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-item">
+    <div class="ci-icon">&#9993;</div>
+    <div class="ci-text">
+      <div class="ctitle">E-mail</div>
+      <div class="cval">
+        <a href="mailto:contato@portorefrigeracaorj.com.br">contato@portorefrigeracaorj.com.br</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-item">
+    <div class="ci-icon">&#128205;</div>
+    <div class="ci-text">
+      <div class="ctitle">Endereço</div>
+      <div class="cval">Freguesia(Jacarepaguá), RJ<br>R. Cabo Geraldo Caldenaro, 75</div>
+    </div>
+  </div>
+
+</div>
+
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <a href="#home" class="footer-logo">
+    <img src="images/logo.jpg" alt="Porto Refrigeração" class="footer-logo-img"
+         onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+    <span class="footer-logo-fallback" style="display:none;">
+      <span class="refri">PORTO</span><span class="tronika">REFRIGERAÇÃO</span>
+    </span>
+  </a>
+  <p class="footer-copy">&copy; 2026 Porto Refrigeração. Todos os direitos reservados.</p>
+  <div class="footer-dev">
+    <span>Site desenvolvido por</span>
+    <a href="https://nexvg.com.br" target="_blank" rel="noopener" class="footer-dev-link">
+      <img src="logonexvg.jpg" alt="NEXVG" class="footer-dev-logo"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
+      <span class="footer-dev-fallback" style="display:none;">NEXVG</span>
+    </a>
+  </div>
+</footer>
+<!-- WHATSAPP FLOAT -->
+
+<a href="https://wa.me/5521965722032" class="whatsapp-float" target="_blank" rel="noopener">
+  <span class="wa-label">Fale conosco!</span>
+  <span class="wa-btn">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </span>
+</a>
+
+
+<script src="script.js"></script>
+</body>
+</html>
